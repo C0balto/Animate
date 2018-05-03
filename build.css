@@ -1,0 +1,226 @@
+*,*::before,*:after{box-sizing: border-box;}
+
+body {
+    background-color: rgb(32, 113, 136);
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: white;
+    top:0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+header container#logo{    
+    display: flex;
+    width:100%;
+    max-width:398px;
+}
+
+header container#main {
+    padding-top: 20px;
+}
+header container#main ul li {
+    display:inline;
+    padding-right: 5em;        
+
+}
+
+container#titulo {
+display: flex;
+margin-top: 1%;
+background-color: white;
+
+}
+container#titulo top {
+    padding:10px 0 0 10px;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+
+container#cartazes {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: white;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+container#cartazes img{
+    max-width: 200px;
+    padding:10px 0px 10px 10px;
+}
+container#cartazes article#txt {
+    width: 35%;
+    max-width: 350px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    padding:0px 0px 10px 10px;
+
+
+}
+
+section#ban01 {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    
+}
+container#ban1 {
+    background-image: url('ss.jpeg');
+    width: 60%;
+    background-position: -110px -55px;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    padding-top: 250px;
+    display:flex;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+section#ban01 article {
+    display: flex;
+    width: 40%;
+    padding: 10px 10px 0px 10px;
+    border-right: solid 10px rgb(194, 194, 194);
+    background-color: white;
+    text-align: justify;
+}
+
+container#release {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-top:1%;
+    border-radius: 10px;
+    background-color: rgb(236, 235, 235);
+    padding-top:5px;
+
+    
+}
+
+container#release section#r01, section#r02, section#r03 {
+    max-width: 400px;
+    height: 300px;
+    font-size: 0.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    text-align: justify;
+    display: flex; 
+  
+}
+
+container#release section#r01 img, section#r02 img, section#r03 img {
+    max-width: 200px;
+    padding: 0px 0px 0px 5px;
+}
+
+
+section#ban02 {
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    
+}
+container#ban2 {
+    background-image: url('yuyu.jpg');
+    width: 60%;
+    background-position: -160px -55px;
+    background-repeat: no-repeat;
+    margin-top: 1%;
+    padding-top: 250px;
+    display:flex;
+    overflow: hidden;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section#ban02 article {
+    display: flex;
+    width: 40%;
+    padding: 10px 10px 0px 10px;
+    border-left: solid 10px rgb(194, 194, 194);
+    background-color: white;
+    text-align: justify;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-top: 10px;
+    border-top-left-radius: 10px;
+}
+
+footer section#contatos ul li{
+    display:inline-block;
+}
+
+footer section#contatos {
+    padding: 10px 0 0 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+
+
+}
+
+footer section#contatos ul li#face, li#youtube, li#twitter {
+    background-image: url('redesocais_mini.png');
+    width:50px;
+    height:50px;
+    border-radius: 150px;
+}
+
+footer section#contatos ul li#face{
+    background-position: -10px -56px;
+}
+
+footer section#contatos ul li#face:hover{
+    background-position: -10px -5px;
+}
+
+footer section#contatos ul li#youtube{
+    background-position: -68px -56px;
+
+}
+
+footer section#contatos ul li#youtube:hover{
+    background-position: -68px -5px;
+
+}
+
+
+footer section#contatos ul li#twitter{
+    background-position: -125px -56px;
+
+}
+
+footer section#contatos ul li#twitter:hover{
+    background-position: -125px -5px;
+
+}
+
+footer section#newsletter {
+    padding: 60px 0 0 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+
+}
